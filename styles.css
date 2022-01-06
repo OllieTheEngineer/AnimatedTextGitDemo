@@ -11,10 +11,19 @@ body {
 
 h1 {
     color: white;
-    padding: 5vh;
+    padding: 3vh;
     margin: 0 auto;
     font-size: 60px;
     text-align: center; 
+}
+
+h2{
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;  
 }
 
 div {
@@ -55,4 +64,30 @@ input{
     background-color: rgb(70, 110, 238);
     color: white;
     
+}
+
+button {
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 15px;
+    border-width: medium;
+    border-style: solid;
+    font-weight: bolder;
+    font-size: large;
+    width: 10em;
+}
+
+button:hover{
+    background-color: rgb(70, 110, 238);
+    color: white;
+}
+
+.container img{
+    position: absolute;
+    margin-top: 200px;
+    width: 40vh;
+    height: 20vh;
+    margin: 0 auto;
 }
